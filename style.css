@@ -1,34 +1,55 @@
 @import url('https://fonts.googleapis.com/css?family=Kumar+One+Outline&display=swap');
-body {
-    
-    font-family: "Kumar One Outline";
-    text-align: center;
-    font-size: 20px;
-}
 h1{
     font-size: 50px;
     color: #80Add7;
+    font-family: "Kumar One Outline";
 }
 a:link,
 a:visited {
     font-size: 30px;
     color: darkolivegreen;
+    font-family: "Kumar One Outline";
 }
 a:hover {
     color: darkkhaki;
+    font-family: "Kumar One Outline";
 }
 h4 {
     color: palevioletred;
+    font-family: "Kumar One Outline";
 }
 p {
     color: darkgray;
 }
 body {
     background-color: antiquewhite;
+    text-align: center;
+    font-size: 20px;
+    /* border-style: double;
+    border-width: thick; */
+
 }
 li {
     color: darkgray;
+    font-family: "Kumar One Outline";
 }
 h2 {
-    color: violet
+    color: violet;
+    font-family: "Kumar One Outline";
+}
+.writing {
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-color:  black;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+section {
+
+    
+
 }
