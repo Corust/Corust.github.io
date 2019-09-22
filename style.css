@@ -40,7 +40,7 @@ h2 {
 .writing {
     border-top-style: solid;
     border-bottom-style: solid;
-    border-color:  black;
+    border-color: darkgoldenrod;
     margin-left: 5%;
     margin-top: 5%;
     margin-bottom: 5%;
@@ -48,8 +48,7 @@ h2 {
     padding-left: 10%;
     padding-right: 10%;
 }
-section {
-
-    
-
+canvas {
+    background-color: white;
+    border-style: solid;
 }

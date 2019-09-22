@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../style.css">
+        <script>
+            var canvas; 
+            var ctx;
+            // When the window is loading, run the init function.
+            window.onload = init;
+            function init() {
+                // Settting value to canvas to connect HTML canvas to JS canvas.
+                canvas = document.getElementById("myCanvas");
+                // Setting canvas' context to 2D
+                ctx = canvas.getContext("2d");
+                draw();
+            }
+            function draw() {
+                ctx.fillStyle = "black";
+                ctx.fillRect (425,0,175,25);
+                ctx.fillRect (600,25,50,25);
+                ctx.fillRect (375,25,50,25);
+                ctx.fillRect (350,50,25,25);
+                ctx.fillRect (325,75,25,50);
+                ctx.fillRect (300,125,25,175);
+                ctx.fillRect (325,300,25,50);
+                ctx.fillRect (350,350,25,25);
+                ctx.fillRect (375,375,50,25);
+                ctx.fillRect (425,400,175,25);
+                ctx.fillRect (600,375,50,25);
+                ctx.fillRect (650,350,25,25);
+                ctx.fillRect (675,300,25,50);
+                ctx.fillRect (700,125,25,175);
+                ctx.fillRect (675,75,25,50);
+                ctx.fillRect (650,50,25,25);
+                ctx.fillStyle = "lightgreen";
+                ctx.fillRect (400,150,25,25);
+                ctx.fillRect (600,150,25,25);
+               ctx.fillStyle = "black";
+                ctx.fillRect (400,125,50,25);
+                ctx.fillRect (600,125,50,25);
+                ctx.fillStyle = "black";
+                ctx.fillRect (400,225,25,50);
+                ctx.fillRect (600,225,25,50);
+                ctx.fillRect (425,275,25,25);
+                ctx.fillRect (575,275,25,25);
+                ctx.fillRect (450,300,125,25);
+            }
+        </script>
+        <title>
+
+        </title>
+        
+    </head>
+    <body>
+        <header>
+            <h1>
+             ][ Drawing ][
+            </h1>
+        </header>
+        <nav>
+            <a href="../index.html">Go Back to Homepage</a>
+        </nav>
+        <section>
+            <canvas id="myCanvas" width="1000" height="500"></canvas>
+        </section>
+        <footer>
+            <p>&copy; 2019</p>
+        </footer>
+    </body>
+</html>
